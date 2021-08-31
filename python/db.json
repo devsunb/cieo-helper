@@ -1,0 +1,35 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "question": "관리자 모드로 들어가기 위한 명령어는?",
+            "prefix": "Router>",
+            "answer": [
+                {
+                    "command": "enable",
+                    "auto": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question":
+                "라우터 또는 스위치에서 관리자 모드로 들어가기 위한 명령어에 암호로 \"pass!!\" 를 설정하고 MD5 방식으로 암호화하여 저장하기 위한 명령어는?",
+            "prefix": "Router(config)#",
+            "answer": [
+                {
+                    "command": "enable",
+                    "auto": 2
+                },
+                {
+                    "command": "secret",
+                    "auto": 1
+                },
+                {
+                    "command": "pass!!",
+                    "auto": 6
+                }
+            ]
+        }
+    ]
+}
